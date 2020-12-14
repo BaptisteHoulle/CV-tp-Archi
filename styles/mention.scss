@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Reg.menuar.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-weight: bold;
+    src: url("../fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Medium.ttf");
+}
+
+
+
+@font-face {
+    font-family: "Raleway";
+    src: url("../fonts/Raleway-Regular.ttf");
+}
+
+p:last-child {
+    margin-bottom: 50px;
+}
+
+footer i {
+    color: #FFF;
+}
+
+footer i:hover {
+    color: #ff4e31;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Raleway';
+    font-size: 4em;
+    color: #ff4e31;
+    text-align: center;
+}
+
+p {
+    font-family: 'Roboto';
+    font-size: 1em;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 20px;
+}
+
+.wrapper h2 {
+    font-family: "Lato";
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2em;
+}
+
+.wrapper h2:after {
+    content: "";
+    display: block;
+    background: #ff4e31;
+    width: 20%;
+    height: 8px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: 0 auto;
+}
+
+footer {
+    i {
+        font-size: 2.4em;
+        color: white;
+    }
+}
